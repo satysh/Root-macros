@@ -1,0 +1,6 @@
+#!/bin/bash
+rm -fv MyTasks_cxx.so
+rm -fv MyTasks_cxx.d
+rm -fv MyTasks_cxx_ACLiC_dict_rdict.pcm
+
+cern -l tasks_and_classes.C
